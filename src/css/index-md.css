@@ -1,0 +1,102 @@
+.nav__socials{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 0 rem;
+}
+
+
+.nav__socials svg{
+    height: 1.5rem;
+    width : 1.5rem;
+}
+/*
+.name{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:41rem;
+    height:8rem;
+}*/
+
+.nameIMG{
+    width:23rem;
+}
+
+.about__me{
+    margin: auto;
+    height: 25rem;
+    width: 40%;
+    margin-bottom: 5rem;
+    aspect-ratio: 1/1.5;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+}
+
+.text__container {
+    text-align: center;
+    height:11%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.about__container{
+    grid-template-columns: 1fr;
+    gap:0;
+}
+
+.about__content p {
+    margin: 1rem 0 1.5rem;
+}
+
+.Typewriter__wrapper{
+    color:var(--color-light);
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.section{
+    margin-top: 8rem;
+    height:100vh;
+}
+
+.experience{
+    margin-top:5rem;
+}
+
+.portfolioitem{
+    width: 75%;
+}
+
+.contact__options{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.contact__option h5{
+    font-size: 13px;
+}
+
+.contact__option h4{
+    font-size: 15px;
+}
+
+.contact{
+    padding-bottom: 30%;
+}

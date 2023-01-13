@@ -1,0 +1,74 @@
+.text__container {
+    text-align: center;
+    position: relative;
+}
+
+h5{
+    color: var(--color-light);
+}
+
+.experience__container {
+    line-height: 3rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+
+.experience__container {
+    background: var(--color-bg-variant);
+    padding: 2rem 2rem;
+    border-radius: 2.4rem;
+    border: 0.1rem solid transparent;
+    transition: var(--transition);
+    
+    background-image:url('../../assets/waves.png');
+}
+
+.experience__container{
+    text-align:center;
+    margin-bottom: 2rem;
+    color:Var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap:2rem;
+}
+
+.experience__details{
+    gap: 0.11rem;
+}
+
+.experience__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+
+}
+
+
+/*============ Media Queries (Medium Devices)=================*/
+/*
+@media screen and (max-width: 1024px){
+    .text__container{
+        transform:translate(0,65vh);
+    }
+    .experience__container{
+        transform:translate(0,70vh);
+    }
+
+}
+*/
+/*============ Media Queries (Small Devices)=================*/
+/*
+@media screen and (max-width: 600px){
+    .text__container{
+        transform:translate(0,65vh);
+    }
+    .experience__container{
+        transform:translate(0,70vh);
+    }
+}
+*/

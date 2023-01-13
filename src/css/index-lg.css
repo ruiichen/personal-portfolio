@@ -1,0 +1,101 @@
+.nav__socials{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 0 rem;
+}
+
+.nav__socials svg{
+    height: 2rem;
+    width : 2rem;
+}
+
+.nameIMG{
+    width:41rem;
+    height:8rem;
+}
+
+.about-me{
+    width:32rem;
+    padding-top: 10rem;
+    padding-left: 11rem;
+}
+
+.text__container {
+    text-align: center;
+    height:11%;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.about__me{
+    margin: auto;
+    height: 33rem;
+    width: 80%;
+    aspect-ratio: 1/1.5;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+}
+
+.Typewriter__wrapper{
+    color:var(--color-light);
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 40% 55%;
+    gap: 5%;
+}
+
+.section{
+    margin-top: 8rem;
+    height:100vh;
+}
+
+.experience{
+    margin-top:7rem;
+}
+
+.portfolioitem{
+    width: 50%;
+}
+
+.contact__options{
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-left: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    gap: 3%;
+    margin-right: auto;
+}
+
+.contact__option h5{
+    font-size: 13px;
+}
+
+.contact__option h4{
+    font-size: 15px;
+}
+
+.contact{
+    padding-bottom: 20%;
+}
