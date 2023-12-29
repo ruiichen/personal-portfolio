@@ -68,7 +68,7 @@ section > h2{
     --color-bg: #14282d;
     --color-bg-variant: #152324;
     --color-primary: #ecc8cc;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-primary-variant: white;
     --color-white: #fff;
     --color-light:rgba(255,255,255,0.6);
 
@@ -113,6 +113,12 @@ body{
     color: var(--color-bg);
 }
 
+.btn-primary:hover{
+    background: var(--color-white);
+    color: vafr(--color-bg);
+    border-color: transparent;
+}
+
 a{
     color: var(--color-primary);
     transition: var(--transition);
@@ -121,16 +127,7 @@ a{
 a:hover{
     color:var(--color-white);
 }
-.my-face{
-    transform:rotate(10deg);
-    width:100%;
-    border-radius:2rem;
-    transition: var(--transition);
-}
 
-.my-face:hover{
-    transform: rotate(0);
-}
 
 .portfolio-container{
     padding-top:5%;
@@ -138,9 +135,10 @@ a:hover{
 }
 
 .portfolioitem{
-    background-color:#1b1d1c;
+    background-color:#192023;
     margin:auto;
     text-align: left;
+    margin-bottom:11%;
     margin-top:5%;
     border-radius: 11px;
     border: 1px solid var(--color-primary);
@@ -148,7 +146,7 @@ a:hover{
 
 .portfolioitem h3{
     text-align:center;
-    padding-top:5%;
+    padding-top:3%;
 }
 
 .portfolioimage{
@@ -156,15 +154,24 @@ a:hover{
    display:block;
    margin-left:auto;
    margin-right:auto;
-   padding-top:5%;
-   padding-bottom:5%;
+   padding-top:3%;
+   padding-bottom:3%;
 
 }
+
+.portfolioitem btn-primary {
+    margin: auto;
+}
+
 .portfoliotext{
 width:90%;
   margin-left:auto;
   margin-right:auto;
   padding-bottom: 16px;
+}
+
+.btn-primary:hover{
+    background-color: #192023;
 }
 /*
 @import url('index-sm.css') (max-width: 767px);

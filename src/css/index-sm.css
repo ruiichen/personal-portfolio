@@ -117,7 +117,7 @@
 }
 
 .experience{
-   margin-top:7rem;
+   margin-top:11rem;
 }
 
 .experience__content{
@@ -139,6 +139,7 @@
 }
 
 .portfolioitem{
+    margin-top:15rem;
     width: 90%;
 }
 .portfolioitem h3{
@@ -196,6 +197,10 @@ h4 {
     font-size: 15px;
 }
 
+.portfolio-container {
+    margin-top: 11rem;
+}
+
 .portfolio-container  h5{
     font-size: 15px;
 }
@@ -210,4 +215,19 @@ h4 {
 
 .contact h5{
     font-size: 15px;
+}
+
+.contact__option {
+    width: 75%;
+    padding:1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contact__option h5{
+    font-size: 0.8rem;
+}
+
+.contact__option a{
+    font-size: 0.8rem;
 }

@@ -33,7 +33,7 @@
 }
 
 .about__card{
-    background: #1b1d1c;
+    background: #192023;
     border: 1px solid var(--color-primary);
     border-radius: 1rem;
     padding: 1rem;
@@ -57,13 +57,41 @@
 }
 
 .about__content p{
-    background: #1b1d1c;
+    background: #192023;
     border: 1px solid var(--color-primary);
     border-radius: 1rem;
     padding: 2rem;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+
+.about-me{
+    width:32rem;
+    padding-top: 10rem;
+    padding-left: 11rem;
+}
+.about__me{
+    margin: auto;
+    height: 33rem;
+    width: 80%;
+    aspect-ratio: 1/1.5;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+}
+.my-face{
+    transform:rotate(10deg);
+    width:100%;
+    border-radius:2rem;
+    /*object-fit:cover;*/
+    transition: var(--transition);
+}
+
+.my-face:hover{
+    transform: rotate(0);
+}
+
 
 
 /*============ Media Queries (Medium Devices)=================*/

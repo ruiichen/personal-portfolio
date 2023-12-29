@@ -42,6 +42,11 @@
     place-items: center;
 }
 
+.my-face {
+    height:33rem;
+    object-fit: cover;
+}
+
 .Typewriter__wrapper{
     color:var(--color-light);
 }
@@ -69,7 +74,7 @@
 }
 
 .experience{
-    margin-top:40%;
+    margin-top:20%;
 }
 
 .experience__content{
@@ -91,7 +96,11 @@
 }
 
 .portfolioitem{
-    width: 50%;
+    width: 37%;
+}
+
+.portfolioitem p{
+    font-size:13px;
 }
 
 .contact__options{
@@ -100,9 +109,9 @@
     margin-left: auto;
     width: 85%;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 32% 32% 32%;
     grid-gap: 5%;
-    gap: 3%;
+    gap: 2%;
     margin-right: auto;
 }
 
@@ -120,4 +129,12 @@
 
 h4 {
     font-size: 21px;
+}
+
+.portfolioitem h3{
+    font-size: 21px;
+}
+
+.portfolioitem h5{
+    font-size: 15px;
 }

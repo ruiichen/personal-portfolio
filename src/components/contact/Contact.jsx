@@ -4,7 +4,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 import { MdTextsms } from 'react-icons/md'
 import {MdFileCopy} from 'react-icons/md'
 import emailjs from '@emailjs/browser';
-import CV from '../../assets/resussy-2.pdf'
+import CV from '../../assets/resume.pdf'
 
 const Contact = () => {
   const form = useRef();
