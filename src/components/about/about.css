@@ -36,7 +36,7 @@
     background: #1b1d1c;
     border: 1px solid var(--color-primary);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -84,6 +84,7 @@
 }
 */
 /*============ Media Queries (Small Devices)=================*/
+/*
 @media screen and (max-width: 600px){
    .about__me{
         width: 65%;
@@ -102,4 +103,4 @@
    .about__content p{
     margin: 1.5 rem 0;
    }
-}
+}*/

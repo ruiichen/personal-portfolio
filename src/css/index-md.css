@@ -100,3 +100,23 @@
 .contact{
     padding-bottom: 30%;
 }
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    row-gap:0.5rem;
+}
+
+.experience__container{
+    margin-top: 3rem;
+    margin-bottom: 11rem;
+    width:50%;
+}
+
+.experience__container h3 {
+    font-size: 1.1rem;
+}
+
+.experience__container h4 {
+    font-size: 0.9rem;
+}

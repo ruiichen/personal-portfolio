@@ -41,7 +41,7 @@
     margin: auto;
     height: 80%;
     width: 50%;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     aspect-ratio: 1/1.5;
     border-radius: 2rem;
     background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
@@ -84,23 +84,58 @@
     grid-template-columns: 40% 55%;
     gap: 5%;
 }
-
+/*
 .about__cards{
-    width: 50%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+}*/
+.about__cards{
+    display:grid;
+    grid-template-columns: 32% 32% 32%;
+    gap:2%;
 }
 
 .about__card{
    margin-bottom:1.3rem;
+   padding: 0.5rem;
+   line-height:1rem;
+}
+
+.about__card small{
+    font-size: 0.6rem;
+}
+
+.about__card h5 {
+    font-size:0.7rem;
+}
+
+.about__content p {
+    margin: 0 0 1.7rem;
+    font-size:0.7rem;
+    padding:1rem;
 }
 
 .experience{
    margin-top:7rem;
 }
 
+.experience__content{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    row-gap:0.5rem;
+}
+
 .experience__container{
     width:90%;
+}
+
+.experience__container h3 {
+    font-size: 1rem;
+}
+
+.experience__container h4 {
+    font-size: 0.8rem;
 }
 
 .portfolioitem{
@@ -139,4 +174,40 @@
 
 .contact{
     padding-bottom: 50%;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+.experience h5 {
+    font-size: 15px;
+}
+
+.experience h2 {
+    font-size: 21px;
+}
+
+.text__container h2 {
+    font-size: 21px;
+}
+
+.text__container h5 {
+    font-size: 15px;
+}
+
+.portfolio-container  h5{
+    font-size: 15px;
+}
+
+.portfolio-container h2{
+    font-size: 21px;
+}
+
+.contact h2 {
+    font-size: 21px;
+}
+
+.contact h5{
+    font-size: 15px;
 }

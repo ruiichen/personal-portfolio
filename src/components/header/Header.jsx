@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5 className='hello'>Hello I'm</h5>
+        <h5 className='hello'>Hello, I'm</h5>
 
         <div>
           <img className="nameIMG" src={name} alt="name"/>
@@ -21,11 +21,11 @@ const Header = () => {
           loop: true,
           delay: 40,
           strings:[
-            "I'm a web developer",
-            "I'm passionate in visual art",
-            "I aspire to code the future",
+            "I'm a Computer Science student studying at the University of Waterloo.",
+            "I'm passionate about solving problems with code.",
+            "I'm an aspiring Software Engineer.",
             "I'm Rui Chen",
-            "and I'm looking for a job c:",
+            "Let's get in touch!",
           ],
           }}/>
         </h5>
