@@ -38,6 +38,11 @@
     place-items: center;
 }
 
+.my-face{
+  height:25rem;
+  object-fit: cover;
+}
+
 .text__container {
     text-align: center;
     height:11%;

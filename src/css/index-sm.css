@@ -49,6 +49,11 @@
     place-items: center;
 }
 
+.my-face{
+  height: 100%;
+  object-fit: cover;
+}
+
 .about__cards {
     display: block;
     /*grid-template-columns: repeat(3,1fr);

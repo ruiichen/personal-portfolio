@@ -7,7 +7,7 @@ import name from '../../assets/name.png'
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div id="header" className="container header__container">
         <h5 className='hello'>Hello, I'm</h5>
 
         <div>
