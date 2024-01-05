@@ -4,84 +4,66 @@ import ME from '../../assets/me.png'
 import FACEDEMO from '../../assets/facedemo.png'
 import FACEDEMO2 from '../../assets/facedemo2.png'
 import ASSET4 from '../../assets/asset4.png'
-import { Carousel } from 'react-carousel-minimal';
 import TICTACTOE from '../../assets/tictactoegif.gif'
 import CALCULATOR from '../../assets/calculatorgif.gif'
 import WIP from '../../assets/WORKINPROGRESS.png'
+import WSDEMO from '../../assets/wsdemo.png'
+import WSLOGIN from '../../assets/wslogin.png'
+import WSMAIN from '../../assets/wsmain.png'
+import WSBUY from '../../assets/wsbuy.png'
+import WSSELL from '../../assets/wssell.png'
+
+import Carousel from 'react-bootstrap/Carousel';
 
 const Portfolio = () => {
-  const data1 = [
-    {
-      image: FACEDEMO,
-      caption: " "
-    },
-    {
-      image: ASSET4,
-      caption: " "
-    },
-    {
-      image: FACEDEMO2,
-      caption: " "
-    }
-  ];
-
-  const captionStyle = {
-    fontSize: '16px',
-    fontWeight: 'bold',
-  }
-  const slideNumberStyle = {
-    fontSize: '20px',
-  }
-
-
-
   return (
     <section id='portfolio'>
       <div className='portfolio-container'>
         <h5> Take A Look Through</h5>
-        <h2 style={{ color: "white" }}> My Portfolio</h2>
+        <h2 style={{ color: "white" }}> My Portfolio</h2> 
 
         <div className='portfolioitem'>
           <h3> WealthShrimple</h3>
-          <img className='portfolioimage'src={WIP} alt="About Image" />
+            <Carousel>
+              <Carousel.Item>
+              <img className='portfolioimage'src={WSDEMO}/>
+              </Carousel.Item>
+              <Carousel.Item>
+              <img className='portfolioimage'src={WSLOGIN}/>
+              </Carousel.Item>
+               <Carousel.Item>
+              <img className='portfolioimage'src={WSMAIN}/>
+              </Carousel.Item>
+              <Carousel.Item>
+              <img className='portfolioimage'src={WSBUY}/>
+              </Carousel.Item>
+               <Carousel.Item>
+              <img className='portfolioimage'src={WSSELL}/>
+              </Carousel.Item>
+            </Carousel>
         <div className='portfoliotext'>
             <h5>Java, SpringBoot, Maven, MySQL, Oauth2, React, JS</h5>
-            <p>This is mock investment website that allows the user to experience an authentic stock market simulation by performing real-time queries of any NASDAQ stock’s price to be used whenever it is to be bought or sold by the user. The back-end manages user accounts connected to their gmail and their respective stock inventory.</p>
-            <a href="" className='btn btn-primary'>Try it</a>
+            <p>This is mock investment website that allows the user to experience an authentic stock market simulation and performs real-time queries of NASDAQ whenever a stock is to be bought or sold by the user. The back-end manages user accounts connected to their gmail and their respective stock inventory.</p>
+            <a href="https://wealthshrimple-64d69.web.app/" className='btn btn-primary'>Try it</a>
           </div>
       </div>
 
         <div className='portfolioitem'>
           <div>
             <h3>Average Face Generator</h3>
-            <div style={{
-              padding: "0px 20px"
-            }}>
-              <Carousel
-                data={data1}
-                width="850px"
-                height="500px"
-                captionStyle={captionStyle}
-                radius="10px"
-                slideNumber={true}
-                slideNumberStyle={slideNumberStyle}
-                captionPosition="bottom"
-                automatic={false}
-                dots={true}
-                pauseIconColor="white"
-                pauseIconSize="40px"
-                slideImageFit="cover"
-                thumbnails={false}
-                thumbnailWidth="100px"
-                slideBackgroundColor="none"
-                style={{
-                  textAlign: "center",
-                  maxWidth: "850px",
-                  maxHeight: "500px",
-                  margin: "25px auto",
-                }}
-              />
-            </div>
+            
+            <Carousel>
+              <Carousel.Item>
+              <img className='portfolioimage'src={FACEDEMO} />
+              </Carousel.Item>
+              <Carousel.Item>
+              <img className='portfolioimage'src={FACEDEMO2}/>
+              </Carousel.Item>
+              <Carousel.Item>
+               <img className='portfolioimage'src={ASSET4}/>
+              </Carousel.Item> 
+            </Carousel>          
+            
           </div>
           <div className='portfoliotext'>
             <h5>Python Flask OpenCV Dlib HTML </h5>
